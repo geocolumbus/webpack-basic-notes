@@ -4,16 +4,24 @@
   "description": "Basic webpack",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "node_modules/.bin/webpack",
+    "start": "node_modules/.bin/serve",
+    "test": "node_modules/.bin/karma start"
   },
   "repository": "https://github.com/geocolumbus/webpack-basic-notes.git",
   "author": "<geocolumbus@gmail.com> George Campbell",
   "license": "ISC",
-  "dependencies": { },
+  "dependencies": {},
   "devDependencies": {
     "@babel/core": "^7.1.2",
     "@babel/preset-env": "^7.1.0",
     "babel-loader": "^8.0.4",
+    "jasmine-core": "^3.3.0",
+    "karma": "^3.1.1",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-cli": "^1.0.1",
+    "karma-jasmine": "^1.1.2",
+    "karma-webpack": "^3.0.5",
     "serve": "^10.0.2",
     "uglify": "^0.1.5",
     "uglifyjs-webpack-plugin": "^2.0.1",
