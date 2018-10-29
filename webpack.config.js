@@ -1,11 +1,11 @@
-const path = require('path');
-const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
+const path = require('path')
+const UglifyJsPlugin = require('uglifyjs-webpack-plugin')
 
 module.exports = {
-  entry: './src/js/index.js',
+  entry: {javascript: './src/js/index.js'/*, html: './index.html'*/},
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: 'bundle.js'
+    filename: '[name].js'
   },
   mode: 'development',
   optimization: {
@@ -25,5 +25,5 @@ module.exports = {
       }
     ]
   }
-};
+}
 

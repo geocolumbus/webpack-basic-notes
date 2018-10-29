@@ -6,7 +6,7 @@ describe('Bar tests', function () {
     expect(bar.two(2)).toEqual(4);
   })
   it('Adds three', function () {
-    expect(bar.three(2-2)).toEqual(1);
+    expect(bar.three(-2)).toEqual(1);
   })
 
 })
