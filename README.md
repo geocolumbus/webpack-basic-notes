@@ -37,7 +37,7 @@ Open localhost:5000 in your browser.
 ## TODO (10/29)
 
 * Hot loading (integrate build and run if any changes)
-* Hot testing
+* Hot testing (with headless chrome?)
 * Allow environment to be set from command line
 * Fix security alerts
 * Add Github features (TravisCI ?)
