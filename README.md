@@ -39,6 +39,8 @@ Open localhost:5000 in your browser.
 * Hot loading (integrate build and run if any changes)
 * Hot testing
 * Allow environment to be set from command line
+* Fix security alerts
+* Add Github features (TravisCI ?)
 
 
 ## Reference
