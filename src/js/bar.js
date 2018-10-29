@@ -1,9 +1,18 @@
 export default function bar () {
-  const name = 'George'
-  let d = 1
-  if (typeof d === 'number') {
-    d++
+  const normal = 'Normal'
+  let vals = []
+  const max = 100
+  const i=45;
+
+  for (let i = 0; i < max; i++) {
+    vals.push(i % 3 === 0 ? 'Special' : normal);
   }
-  document.getElementsByTagName('body')[0].innerHTML = `<h1>${name} -- ${d}</h1>`
+
+  for (let i = 0; i < max; i++) {
+    vals.push(i % 3 === 0 ? 'ExtraSpecial' : normal);
+  }
+
+  console.log(i);
 }
+
 
