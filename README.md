@@ -2,11 +2,23 @@
 
 ## Usage
 
+### Installation
 ```
+git clone https://github.com/geocolumbus/webpack-basic-notes.git
 npm install
-npx webpack
-npx serve
 ```
+
+### Build
+```
+npm build
+```
+
+### Run
+```
+npm start
+```
+
+Open localhost:5000 in your browser.
 
 ## Features
 
