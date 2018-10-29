@@ -32,6 +32,14 @@ Open localhost:5000 in your browser.
 * uglify.js
 * serve
 * babel
+* karma / jasmine testing
+
+## TODO (10/29)
+
+* Hot loading (integrate build and run if any changes)
+* Hot testing
+* Allow environment to be set from command line
+
 
 ## Reference
 
