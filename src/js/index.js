@@ -1,6 +1,7 @@
-import Bar from './bar'
-let bar = new Bar()
+import Bar from "./bar"
 
-console.log(`bar.two(2) = ${bar.two(2)}`)
-console.log(`bar.three(3) = ${bar.three(3)}`)
+const bar = new Bar()
+const n = bar.two(2) + bar.three(5)
+
+window.document.getElementsByTagName("body")[0].innerHTML = `<p>${n}</p>p>`
 
