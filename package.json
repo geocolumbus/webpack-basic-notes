@@ -5,13 +5,13 @@
   "main": "index.js",
   "scripts": {
     "build": "node_modules/.bin/webpack",
-    "start": "node_modules/.bin/serve",
+    "start": "npm run build && node_modules/.bin/serve",
     "test": "node_modules/.bin/karma start"
   },
   "repository": "https://github.com/geocolumbus/webpack-basic-notes.git",
   "author": "<geocolumbus@gmail.com> George Campbell",
   "license": "ISC",
-  "dependencies": {},
+  "dependencies": { },
   "devDependencies": {
     "@babel/core": "^7.1.2",
     "@babel/preset-env": "^7.1.0",

@@ -6,7 +6,6 @@ export default function Bar () {
         three: function (n) {
             return n + 3
         }
-
     }
 }
 
