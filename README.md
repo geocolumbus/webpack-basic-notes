@@ -38,14 +38,13 @@ Open localhost:5000 in your browser.
 * babel
 * karma / jasmine testing
 
-## TODO (10/29)
+## TODO (10/31/2018)
 
 * Hot loading (integrate build and run if any changes)
 * Hot testing (with headless chrome?)
 * Allow environment to be set from command line
 * Fix security alerts
 * Add Github features (TravisCI ?)
-
 
 ## Reference
 
