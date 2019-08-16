@@ -1,21 +1,17 @@
 const path = require('path')
-const UglifyJsPlugin = require('uglifyjs-webpack-plugin')
 
 module.exports = {
-    entry: {bundle: './src/js/index.js'},
+    entry: {app: './src/js/app.js'},
     output: {
         path: path.resolve(__dirname, 'dist'),
         filename: '[name].js'
     },
     mode: 'development',
-    optimization: {
-        minimizer: [new UglifyJsPlugin()]
-    },
     module: {
         rules: [
             {
                 test: /\.m?js$/,
-                exclude: /(node_modules|bower_components)/,
+                exclude: /(node_modules)/,
                 use: {
                     loader: 'babel-loader',
                     options: {

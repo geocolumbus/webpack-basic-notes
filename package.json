@@ -2,30 +2,24 @@
   "name": "basic",
   "version": "1.0.0",
   "description": "Basic webpack",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "build": "node_modules/.bin/webpack",
-    "start": "npm run build && node_modules/.bin/serve",
+    "start": "npm run build && node dist/app.js",
     "test": "node_modules/.bin/karma start"
   },
   "repository": "https://github.com/geocolumbus/webpack-basic-notes.git",
   "author": "<geocolumbus@gmail.com> George Campbell",
-  "license": "ISC",
-  "dependencies": {},
+  "license": "MIT",
+  "dependencies": {
+    "node-csv-query": "^0.1.0"
+  },
   "devDependencies": {
     "@babel/core": "^7.1.2",
     "@babel/preset-env": "^7.1.0",
     "babel-loader": "^8.0.4",
     "eslint": "^5.8.0",
-    "jasmine-core": "^3.3.0",
-    "karma": "^3.1.1",
-    "karma-chrome-launcher": "^2.2.0",
-    "karma-cli": "^1.0.1",
-    "karma-jasmine": "^1.1.2",
-    "karma-webpack": "^3.0.5",
-    "serve": "^10.0.2",
-    "uglify": "^0.1.5",
-    "uglifyjs-webpack-plugin": "^2.0.1",
+    "jest": "^24.8.0",
     "webpack": "^4.23.1",
     "webpack-cli": "^3.1.2"
   }
