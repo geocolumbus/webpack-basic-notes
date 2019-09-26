@@ -20,7 +20,7 @@ npm start
 
 ### Linting
 
-Enble eslint in IntelliJ Idea under Languages & Frameworks -> Code Quality Tools.
+Enable eslint in IntelliJ Idea under Languages & Frameworks -> Code Quality Tools.
 
 ### Test with Karma and Jasmine in Chrome
 
