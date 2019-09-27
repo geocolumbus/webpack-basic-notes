@@ -1,5 +1,7 @@
 # Basic webpack test project
 
+This project was modified to explore using Webpack to pack together node dependencies so there is a single file to zip up.
+
 ## Usage
 
 ### Installation
@@ -13,22 +15,10 @@ npm install
 npm run build
 ```
 
-### Run
+### Run locally
 ```
 npm start
 ```
-
-### Linting
-
-Enable eslint in IntelliJ Idea under Languages & Frameworks -> Code Quality Tools.
-
-### Test with Karma and Jasmine in Chrome
-
-```
-npm test
-```
-
-Open localhost:5000 in your browser.
 
 ## Features
 

@@ -1,7 +1,6 @@
-import Bar from "./bar"
+const axios = require('axios')
 
-const bar = new Bar()
-const n = bar.two(2) + bar.three(5)
-
-window.document.getElementsByTagName("body")[0].innerHTML = `<p>${n}</p>`
-
+axios.get('https://www.nhc.noaa.gov/index-at.xml')
+    .then(response => {
+        console.log( response)
+    })
